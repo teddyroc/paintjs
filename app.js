@@ -35,6 +35,7 @@ function startPainting(event) {
 function handleClickColor(event) {
     const color = event.target.style.backgroundColor;
     ctx.strokeStyle = color;
+    ctx.fillstyle = color;
 }
 
 if(canvas){
